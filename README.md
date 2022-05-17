@@ -524,7 +524,7 @@ MIGRANDO SISTEMA PHP PARA O LARAVEL 8
 
         - Route::resource('Fornecedor', 'App\http\Controllers\FornecedorController')->parameters(['Fornecedor' => 'id']) ; 
 
-
+ 
 
 ------------------------------------ GIT HUB ----------------------------------------------------------------------
 
