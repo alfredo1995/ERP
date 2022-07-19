@@ -6,7 +6,7 @@ MIGRANDO SISTEMA PHP PARA O LARAVEL 8
      
 2) Instalar NPM para as dependências Front End do Scaffold
        
-       - npm install
+       - npm install 
        - npm run dev
        
 3) Criar o banco de dados
