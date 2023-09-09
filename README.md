@@ -5,7 +5,7 @@ MIGRANDO SISTEMA PHP PARA O LARAVEL 8
        - composer create-project --prefer-dist Laravel/Laravel ERP
      
 2) Instalar NPM para as dependências Front End do Scaffold
-       
+        
        - npm install
        - npm run dev
        
