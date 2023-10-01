@@ -45,7 +45,7 @@ MIGRATING PHP SYSTEM TO LARAVEL 8
 
             use App\http\Controllers\ProdutoVendaController;
 
-7) Retornar o caminho e metodo index de fornecedores
+7) Return the supplier index path and method
 
           public function index(){  
 
@@ -55,7 +55,7 @@ MIGRATING PHP SYSTEM TO LARAVEL 8
 
          incluir
 
-8) Criar Repositorio e suas respectivas views fornecedor>index.blade.php
+8) Create Repository and its respective supplier views>index.blade.php
 
         - usar o template admin bootstrap 5 responsive
         - copiar tabela do template admin bootstrap 5 e personalizar
@@ -65,7 +65,7 @@ MIGRATING PHP SYSTEM TO LARAVEL 8
 
           <form method="post" action="{ route('fornecedores.create') }" class="row g-3">
 
-    II)Criar tabela fornecedores e seu cabeçario <head>d
+    II) Criar tabela fornecedores e seu cabeçario <head>d
 
         - <table>
         - dentro da table criar o cabecario da tabela 
