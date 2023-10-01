@@ -1,23 +1,23 @@
-MIGRANDO SISTEMA PHP PARA O LARAVEL 8 
+MIGRATING PHP SYSTEM TO LARAVEL 8
 
-1) Iniciar o projeto 
+1) Start the project
        
        - composer create-project --prefer-dist Laravel/Laravel ERP
      
-2) Instalar NPM para as dependências Front End do Scaffold
+2) Install NPM for Scaffold Front End Dependencies
         
        - npm install
        - npm run dev
        
-3) Criar o banco de dados
+3) Create the database
        
        - create database Fornecedores;
  
-4) Importar o banco de dados 
+4) Import the database
        
        - importar o banco de dados do sistema antigo em php
 
-5) Conxexão com banco de dados
+5) Connection to database
        
        -DB_CONNECTION=mysql
        -DB_HOST=127.0.0.1
@@ -27,7 +27,7 @@ MIGRANDO SISTEMA PHP PARA O LARAVEL 8
        -DB_PASSWORD=7070
 
 
-6) endpoints do caminho das rotas e seus respectivos metodos        
+6) route path endpoints and their respective methods     
               
         - php artisan make:controller --resource FornecedorController --model=Fornecedor
         - Chamando a rota pelo nome ->name('').
