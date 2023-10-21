@@ -15,7 +15,7 @@ MIGRATING PHP SYSTEM TO LARAVEL 8
  
 4) Import the database
        
-       - importar o banco de dados do sistema antigo em php
+       - import the old system database in php
 
 5) Connection to database
        
@@ -65,7 +65,7 @@ MIGRATING PHP SYSTEM TO LARAVEL 8
 
           <form method="post" action="{ route('fornecedores.create') }" class="row g-3">
 
-    II) Criar tabela fornecedores e seu cabeçario <head>d
+    II) Create suppliers table and its header <head>d
 
         - <table>
         - dentro da table criar o cabecario da tabela 
@@ -84,7 +84,7 @@ MIGRATING PHP SYSTEM TO LARAVEL 8
             </tr>
 		</thead>           
 
-    II) criar o corpo da tabela de fornecedores         
+    II) create the body of the supplier table        
         
         - corpo do tabela <tbody>	
         - cabeçario da tabela <tr>
