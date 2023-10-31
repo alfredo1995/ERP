@@ -1,4 +1,4 @@
-THIS SYSTEM WAS MIGRATED TO LARAVEL 8 (PHP)
+This system was migrated to Laravel 8 (PHP). Service provided independently on the freelance work market platform.
 
 
 
